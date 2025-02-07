@@ -1,0 +1,49 @@
+/* Custom Styles for Skills Section */
+.skills-section {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+    margin-top: 2rem;
+  }
+  
+  .skills-section h2 {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .skills-section p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .skills-section .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .skills-section .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .skills-section .card-title {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .skills-section .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .skills-section .progress {
+    height: 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .skills-section .progress-bar {
+    background-color: #007bff;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+  }

@@ -1,0 +1,66 @@
+/* Custom Styles for Projects Section */
+.projects-section {
+    background-color: #fff;
+    padding: 100px 0;
+    margin-top: 2rem;
+  }
+  
+  .projects-section h2 {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .projects-section p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .projects-section .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .projects-section .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .projects-section .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .projects-section .card-title {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .projects-section .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .projects-section .btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 8px 20px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .projects-section .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .projects-section .btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+    padding: 8px 20px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .projects-section .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+  }

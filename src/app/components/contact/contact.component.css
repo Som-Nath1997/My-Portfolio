@@ -1,0 +1,133 @@
+/* Content Section */
+#content {
+    background-color: #f8f9fa; /* Light background for content */
+    padding: 50px 15px;
+    margin-top: 2rem;
+  }
+  
+  .container {
+    max-width: 1200px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .col-md-8 {
+    flex: 1 0 60%;
+  }
+  
+  .col-md-4 {
+    flex: 1 0 35%;
+  }
+  
+  .project {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .project:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .project p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .project a {
+    display: inline-block;
+    padding: 12px 30px;
+    margin-top: 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .sidebar ul {
+    padding-left: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    font-size: 1.1rem;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .sidebar ul li a:hover {
+    color: #0056b3;
+  }
+  
+  .sidebar p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .col-md-8, .col-md-4 {
+      flex: 1 0 100%;
+      margin-bottom: 30px;
+    }
+  
+    .project h3 {
+      font-size: 1.5rem;
+    }
+  
+    .project p {
+      font-size: 1rem;
+    }
+  
+    .sidebar {
+      padding: 20px;
+    }
+  
+    .sidebar h3 {
+      font-size: 1.25rem;
+    }
+  
+    .sidebar ul li a {
+      font-size: 1rem;
+    }
+  
+    .sidebar p {
+      font-size: 1rem;
+    }
+  }
+  
