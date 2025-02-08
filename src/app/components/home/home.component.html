@@ -1,36 +1,42 @@
-<app-three-particles></app-three-particles>  <!-- ✅ Add this to show particles -->
+<ng-particles [id]="id" [options]="particlesOptions" [particlesInit]="particlesInit"
+  (particlesLoaded)="particlesLoaded($event)"></ng-particles>
 
 <section id="home" class="home-section text-center d-flex align-items-center justify-content-center py-5">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8" data-aos="fade-up" data-aos-duration="1000">
-          <h1 class="display-4 mb-4">Welcome to My Portfolio</h1>
-          <p class="lead">
-            Hi, I'm <strong>Som Nath</strong>, a passionate Software Developer with over 3 years of experience in building modern web applications.
-          </p>
-          <p>
-            I hold a B.Tech in Computer Science Engineering and hail from the beautiful state of Himachal Pradesh. My expertise
-            lies in developing scalable, user-friendly, and high-performance applications using the Angular framework.
-          </p>
-          <p>
-            With a strong foundation in JavaScript and TypeScript, I specialize in frontend and full-stack development, leveraging
-            technologies like Angular, .NET, RxJS, and CI/CD pipelines. I have hands-on experience in designing
-            intuitive UIs with HTML5, CSS3, Bootstrap, and Tailwind CSS, ensuring seamless user experiences. Additionally, I am
-            proficient in Git for version control and database management.
-          </p>
-          <p>
-            I am always eager to explore new technologies, optimize performance, and build robust digital solutions that make an
-            impact.
-          </p>
-          <div class="mt-4">
-            <a routerLink="/about" class="btn btn-primary btn-lg me-3" data-aos="zoom-in" data-aos-duration="1000">
-              Learn More
-            </a>
-            <a routerLink="/contact" class="btn btn-outline-primary btn-lg" data-aos="zoom-in" data-aos-duration="1000">
-              Contact Me
-            </a>
-          </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8" data-aos="fade-up" data-aos-duration="1000">
+        <h1 class="display-4 mb-4">Welcome to My Portfolio</h1>
+        <p class="lead">
+          Hi, I'm <strong>Som Nath</strong>, a passionate Software Developer with over 3 years of experience in building
+          modern web applications.
+        </p>
+        <p>
+          I hold a B.Tech in Computer Science Engineering and hail from the beautiful state of Himachal Pradesh. My
+          expertise
+          lies in developing scalable, user-friendly, and high-performance applications using the Angular framework.
+        </p>
+        <p>
+          With a strong foundation in JavaScript and TypeScript, I specialize in frontend and full-stack development,
+          leveraging
+          technologies like Angular, .NET, RxJS, and CI/CD pipelines. I have hands-on experience in designing
+          intuitive UIs with HTML5, CSS3, Bootstrap, and Tailwind CSS, ensuring seamless user experiences. Additionally,
+          I am
+          proficient in Git for version control and database management.
+        </p>
+        <p>
+          I am always eager to explore new technologies, optimize performance, and build robust digital solutions that
+          make an
+          impact.
+        </p>
+        <div class="mt-4">
+          <a routerLink="/about" class="btn btn-primary btn-lg me-3" data-aos="zoom-in" data-aos-duration="1000">
+            Learn More
+          </a>
+          <a routerLink="/contact" class="btn btn-outline-primary btn-lg" data-aos="zoom-in" data-aos-duration="1000">
+            Contact Me
+          </a>
         </div>
       </div>
     </div>
+  </div>
 </section>

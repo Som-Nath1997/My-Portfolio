@@ -1,13 +1,10 @@
 /* Home Section - Full-Screen Layout */
 #home {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: relative;
+  z-index: 1;
   text-align: center;
-  background: linear-gradient(135deg, #007bff, #6610f2);
   color: white;
-  padding: 120px 20px 60px; /* Adjusted padding to prevent text from being hidden */
+  padding: 50px;
 }
 
 /* Navbar Fix - Ensure it does not overlap content */
@@ -30,7 +27,8 @@ h1 {
   font-weight: bold;
   margin-bottom: 20px;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  padding-top: 20px; /* Extra space to avoid overlap */
+  padding-top: 20px;
+  /* Extra space to avoid overlap */
 }
 
 /* Paragraphs */
@@ -44,7 +42,8 @@ p {
 /* Responsive Fixes */
 @media (max-width: 768px) {
   #home {
-    padding: 140px 20px 40px; /* Extra padding for mobile screens */
+    padding: 140px 20px 40px;
+    /* Extra padding for mobile screens */
   }
 
   h1 {

@@ -1,5 +1,5 @@
-/* To learn more about Typescript configuration file: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html. */
-/* To learn more about Angular compiler options: https://angular.dev/reference/configs/angular-compiler-options. */
+/* To learn more about TypeScript configuration file: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html */
+/* To learn more about Angular compiler options: https://angular.dev/reference/configs/angular-compiler-options */
 {
   "compileOnSave": false,
   "compilerOptions": {
@@ -10,13 +10,17 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
-    "isolatedModules": true,
+    "isolatedModules": false,
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": false,
     "experimentalDecorators": true,
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "importHelpers": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["node_modules/@types"],
+    "types": ["tsparticles"],
     "target": "ES2022",
     "module": "ES2022",
     "lib": [
