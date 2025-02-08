@@ -2,7 +2,6 @@
   "name": "portfolio-app",
   "version": "0.0.0",
   "scripts": {
-    "vercel-build": "npm install -g @angular/cli && npm install && ng build --configuration=production",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
