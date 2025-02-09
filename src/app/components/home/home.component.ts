@@ -3,11 +3,12 @@ import { ClickMode, HoverMode, Container, Engine } from 'tsparticles-engine';
 import { loadSlim } from "tsparticles-slim"; // if you are going to use `loadSlim`, install the "tsparticles-slim" package too
 import { NgParticlesModule } from "ng-particles";
 import { MoveDirection, OutMode } from "tsparticles-engine";  // ✅ Import OutMode
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NgParticlesModule],
+  imports: [NgParticlesModule,RouterModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
